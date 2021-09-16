@@ -8,12 +8,12 @@ The solution for the task is wriiten in python3 runtime, with no external depend
 ```python
 if __name__ == "__main__":
 	encodings = [[5, 4, 4],   	 
-	 			 [4, 3, 4],    
-	 			 [3, 2, 4],
-	 			 [2, 2, 2],
-	 			 [3, 3, 4],
-	 			 [1, 4, 4],
-	 			 [4, 1, 1]]
+	[4, 3, 4],    
+	[3, 2, 4],
+	[2, 2, 2],
+	[3, 3, 4],
+	[1, 4, 4],
+	[4, 1, 1]]
 
 	country_count = getCountries(encodings)
 	print(country_count)
